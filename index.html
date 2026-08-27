@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Horizon | Elegancia y confianza hasta tu puerta</title>
+    <meta name="description" content="Blue Horizon: Calidad, variedad y confianza. Encuentra productos seleccionados con esmero y recíbelos en la comodidad de tu hogar.">
+    <meta name="theme-color" content="#1B4F72">
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="Blue Horizon - Elegancia y confianza hasta tu puerta">
+    <meta property="og:description" content="Calidad, variedad y confianza. Encuentra productos seleccionados con esmero y recíbelos en la comodidad de tu hogar.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bluehorizon.github.io"> <!-- Cambia por tu URL real -->
+    <meta property="og:image" content="https://bluehorizon.github.io/logo.png"> <!-- Imagen para compartir -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="Blue Horizon">
+
+    <!-- Para WhatsApp y Telegram (versión más compatible) -->
+    <meta property="og:image:alt" content="Blue Horizon - Logo de olas infinitas">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-fijo" id="header">
+        <div class="header-contenido">
+            <a href="#inicio" class="logo-header">
+                <img src="logo.png" alt="Blue Horizon" class="logo-imagen">
+                <span class="logo-texto">Blue <span>Horizon</span></span>
+            </a>
+            <div class="menu-hamburguesa" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navMenu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#pedido">Pedido</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content container">
+            <div class="brand-with-butterfly">
+                <img src="logo.png" alt="" class="brand-butterfly">
+                <div class="brand-text">
+                    <h1 class="titulo-elegante fade-in">Blue</h1>
+                    <h2 class="subtitle-italic fade-in">Horizon</h2>
+                </div>
+            </div>
+            <p class="eslogan-principal fade-in">Elegancia que llega hasta tu puerta</p>
+            <p class="traduccion-italiana fade-in">Calidad, variedad y confianza</p>
+            <p class="frase-inspiradora fade-in">
+                Seleccionamos con cariño cada detalle para ti y los tuyos.<br>
+                Disfruta de la comodidad de recibir tus pedidos sin salir de casa.
+            </p>
+            <a href="#catalogo" class="btn-inspirador fade-in">
+                <i class="fas fa-gem"></i> Explorar Catálogo
+            </a>
+        </div>
+    </section>
+
+    <section class="seccion-filtros" id="catalogo">
+        <div class="container">
+            <h2 class="filtros-titulo">Nuestro Universo de Productos</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: var(--gris-texto);">
+                Descubre todo lo que tenemos para ti y amplía tu horizonte
+            </p>
+            <div class="filtros-container">
+                <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                <button class="filtro-btn" data-categoria="bodys">Bodys</button>
+                <button class="filtro-btn" data-categoria="mamelucos">Mamelucos</button>
+                <button class="filtro-btn" data-categoria="gorros">Gorros y Medias</button>
+                <button class="filtro-btn" data-categoria="calzado">Calzado</button>
+                <button class="filtro-btn" data-categoria="accesorios">Accesorios</button>
+            </div>
+            <div class="categoria-actual" id="categoriaActual">
+                Mostrando: <span>Todos los productos</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-productos">
+        <div class="container">
+            <div class="productos-grid" id="productosContainer"></div>
+        </div>
+    </section>
+
+    <section class="seccion-formulario" id="pedido">
+        <div class="container">
+            <h2 class="formulario-titulo">Solicita tu Pedido</h2>
+            <p style="text-align: center; margin-bottom: 20px; color: var(--gris-texto); font-style: italic;">
+                🌊 Te acompañamos hasta la puerta de tu casa, con un costo de entrega que depende de la distancia. ¡Escríbenos y te cotizamos tu zona!
+            </p>
+            <div class="formulario-contenedor">
+                <form id="formPedidoBlue">
+                    <div class="form-grupo">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-grupo">
+                        <label for="telefono">Teléfono (WhatsApp) *</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="+53 5xxxxxxx">
+                    </div>
+                    <div class="form-grupo">
+                        <label for="producto">Producto que deseas *</label>
+                        <input type="text" id="producto" name="producto" required placeholder="Ej: Body de bebé, Zapatos, Biberón...">
+                        <small style="color: var(--azul-suave); display: block; margin-top: 5px;">
+                            Especifica color, talla, o detalles importantes
+                        </small>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="cantidad">Cantidad *</label>
+                        <select id="cantidad" name="cantidad" required>
+                            <option value="" disabled selected>Selecciona cantidad</option>
+                            <option value="1">1 unidad</option>
+                            <option value="2">2 unidades</option>
+                            <option value="3">3 unidades</option>
+                            <option value="4">4 unidades</option>
+                            <option value="5+">5 o más unidades</option>
+                        </select>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="direccion">Dirección de entrega *</label>
+                        <textarea id="direccion" name="direccion" rows="3" required placeholder="Reparto, calle, número, municipio..."></textarea>
+                        <small style="color: var(--azul-suave); display: block; margin-top: 5px;">
+                            📍 El costo de la entrega a domicilio se calcula según la distancia de tu zona. ¡Te confirmamos el monto al instante por WhatsApp!
+                        </small>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="mensaje">Mensaje adicional</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Preguntas, instrucciones especiales..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">
+                        <i class="fab fa-whatsapp"></i> Enviar pedido por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-simple" id="contacto">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Blue Horizon" class="footer-logo-imagen">
+                <span>Blue Horizon</span>
+            </div>
+            <p class="footer-eslogan">
+                Donde la calidad se encuentra con la confianza. 
+                Recibe en la comodidad de tu hogar todo lo que necesitas.
+            </p>
+            <div class="footer-contacto">
+                <div class="contacto-item">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Variedad para todos</span>
+                </div>
+                <div class="contacto-item">
+                    <i class="fas fa-star"></i>
+                    <span>Calidad garantizada</span>
+                </div>
+                <div class="contacto-item">
+                    <i class="fas fa-truck"></i>
+                    <span>Llegamos hasta tu puerta</span>
+                </div>
+            </div>
+            <a href="#" class="btn-whatsapp-footer" id="btnWhatsApp" target="_blank">
+                <i class="fab fa-whatsapp"></i> Comprar por WhatsApp
+            </a>
+            <p style="margin: 15px 0; color: rgba(255, 255, 255, 0.8);">
+                <i class="fas fa-clock"></i> Disponible: 9:00 AM - 6:00 PM
+            </p>
+            <div class="creditos">
+                <p>
+                    Página creada por 
+                    <a href="https://sromlet.github.io" target="_blank" style="color: #FF1493; font-weight: bold;">
+                        <span style="color: var(--azul-suave);">SR</span>omlet
+                    </a>
+                    | Porque cada negocio merece crecer
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="productos-blue-horizon.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
