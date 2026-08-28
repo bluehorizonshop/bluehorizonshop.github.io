@@ -209,8 +209,8 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; color: var(--azul-oc√
     outline: none; border-color: var(--azul-cielo); background: white;
     box-shadow: 0 5px 15px rgba(50, 140, 193, 0.1);
 }
-.form-grupo small { display: block; margin-top: 8px; color: var(--azul-cielo); font-size: 0.8rem; }
 
+.form-grupo small { display: block; margin-top: 8px; color: var(--azul-oc√©ano); font-size: 0.85rem; font-weight: 600; }
 .btn-enviar {
     width: 100%; padding: 16px; background: var(--azul-cielo);
     color: white; border: none; border-radius: 50px; font-size: 1rem;
