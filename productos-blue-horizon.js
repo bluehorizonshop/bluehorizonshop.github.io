@@ -522,15 +522,15 @@ const productos = [
         tieneFoto: true,
         categoria: "gorros"
     },
-    {
-        id: 57,
-        nombre: "Lote de 5 calcetines nuevos",
-        descripcion: "🧦 ¡Nuevos con etiqueta! Paquete original de la marca Duck Duck Goose. Vienen en diseño marinero (rayas, estrellas y anclas) en tonos azules, blancos y rojos. Son talla 0-6 meses y están completamente nuevos, sin estrenar.",
-        precio: "500 cup",
-        foto: "calcetines-marinero.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
+   // {
+   //     id: 57,
+   //     nombre: "",
+   //     descripcion: "",
+   //     precio: "",
+   //     foto: "",
+   //     tieneFoto: true,
+   //     categoria: ""
+   //  },
     {
         id: 58,
         nombre: "Lote de accesorios Recién Nacido (Gorro y 3 manoplas)",
@@ -818,15 +818,15 @@ const productos = [
         tieneFoto: true,
         categoria: "accesorios"
     },
-    {
-        id: 89,
-        nombre: "Toallitas para bebé (Le bébé FAVORITE)",
-        descripcion: "🧴 Suavidad garantizada. Paquete original sellado de toallitas para bebé de la marca Le bébé FAVORITE. Vienen presentadas en un lindo empaque redondo con tela de tul y moño. ¡Perfectas para regalar!",
-        precio: "1000 cup",
-        foto: "toallitas-regalo.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //    id: 89,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+   // },
     {
         id: 90,
         nombre: "Toalla con capucha de Cohete (Nueva con etiqueta)",
