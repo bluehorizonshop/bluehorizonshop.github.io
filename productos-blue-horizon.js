@@ -791,15 +791,15 @@ const productos = [
         tieneFoto: true,
         categoria: "accesorios"
     },
-    {
-        id: 86,
-        nombre: "Toalla con capucha de Elefante",
-        descripcion: "🐘 La hora del baño más tierna. Preciosa toalla con capucha en color gris claro que simula la carita de un elefante, con orejas y trompa en relieve. Perfecta para secar y abrigar al bebé después del baño!",
-        precio: "500 cup",
-        foto: "toalla-elefante.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //    id: 86,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     {
         id: 87,
         nombre: "Cobertor de encaje y moños",
@@ -854,15 +854,15 @@ const productos = [
         tieneFoto: true,
         categoria: "accesorios"
     },
-    {
-        id: 93,
-        nombre: "Almohadita cervical de estrellas",
-        descripcion: "⭐ ¡Dulces sueños estrellados! Almohadita cervical para bebé en color crema con un hermoso estampado de estrellas en tonos azul marino, celeste y gris. Tiene un diseño ergonómico con una pequeña hendidura en el centro que ayuda a mantener la posición correcta de la cabecita, brindando máximo confort y seguridad. El tejido es súper suave y acogedor, perfecto para la cuna, el moisés o el carrito. ¡Un básico ideal para el descanso del pequeño!",
-        precio: "300 cup",
-        foto: "almohadita-estrellas.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //    id: 93,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     {
         id: 94,
         nombre: "Lote de 2 Bodies de Disney (Mickey y Amigos)",
