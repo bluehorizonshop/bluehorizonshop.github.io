@@ -845,15 +845,15 @@ const productos = [
         tieneFoto: true,
         categoria: "accesorios"
     },
-    {
-        id: 92,
-        nombre: "Set de regalo de Elefantes (10 piezas)",
-        descripcion: "🐘 ¡Set de regalo completo! Espectacular set de ajuar de la temática 'Sweet Dreams' con elefantitos. Incluye 10 piezas: sabana/cobija, body, mameluco, gorro, pantalón, babero y manoplas, todo a juego con lunas y estrellas. Perfecto para regalo de baby shower o nacimiento. ¡Pura ternura!",
-        precio: "3000 cup",
-        foto: "set-elefantes.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //    id: 92,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     //{
     //    id: 93,
     //    nombre: "",
