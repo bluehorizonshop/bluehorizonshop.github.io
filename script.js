@@ -20,7 +20,7 @@
         'todos': 'Todos los productos',
         'bodys': 'Bodys',
         'mamelucos': 'Mamelucos y Conjuntos',
-        'gorros': 'Gorros, Medias y Manoplas',
+        'gorros': 'Medias',
         'calzado': 'Calzado y Zapatitos',
         'accesorios': 'Accesorios y Biberones'
     };
