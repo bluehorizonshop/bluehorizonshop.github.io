@@ -531,60 +531,60 @@ const productos = [
    //     tieneFoto: true,
    //     categoria: ""
    //  },
-    {
-        id: 58,
-        nombre: "Lote de accesorios Recién Nacido (Gorro y 3 manoplas)",
-        descripcion: "🍼 Set completo para recién nacido. Incluye un gorro de algodón blanco con nudo en la parte superior y 3 pares de manoplas antiarañazos: un par blanco, un par con estampado de elefantitos y un par verde de tejido acanalado. ¡Todo súper suave y perfecto para proteger al bebé!",
-        precio: "250 cup",
-        foto: "lote-gorro-manoplas.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
-    {
-        id: 59,
-        nombre: "Lote de gorros y manoplas de osito",
-        descripcion: "🐻 ¡Ternura invernal! Lote de 2 sets: Uno de gorro a rayas grises y blancas con su par de manoplas a juego. Y otro set de gorro tipo 'orejitas de osito' en gris y azul con carita bordada y su par de manoplas de felpa. ¡Calientitos y adorables!",
-        precio: "400 cup",
-        foto: "lote-gorros-manoplas.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
-    {
-        id: 60,
-        nombre: "Lote de 5 gorros variados",
-        descripcion: "🧢 Paquete de gorritos para toda ocasión. Lote de 5 gorros de algodón: uno gris a rayas, uno blanco con estrellitas, uno blanco con nubes, uno azul marino con la frase 'Beep Vroom' y vehículos, y uno beige con animalitos de la selva (cebras, leones). ¡Todos suaves y elásticos!",
-        precio: "400 cup",
-        foto: "lote-5-gorros.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
-    {
-        id: 61,
-        nombre: "Lote de 4 gorros de algodón",
-        descripcion: "🎨 Colores y diversión. Lote de 4 gorros: uno celeste con camiones, uno crema con montañas geométricas de colores, uno blanco con estrellas y otro blanco con orejitas y estrellas. Perfectos para el día a día y súper cómodos.",
-        precio: "300 cup",
-        foto: "lote-4-gorros.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
-    {
-        id: 62,
-        nombre: "Lote de 5 gorros de algodón (Animalitos)",
-        descripcion: "🦊 Dulzura para la cabeza. Lote de 5 gorritos: uno con elefantes y patitos, uno blanco liso, uno de rayas beige y blanco, uno blanco con zorritos naranjas y uno celeste liso. Todos de tejido suave y elástico. ¡Nunca sobran!",
-        precio: "400 cup",
-        foto: "lote-5-gorros-animales.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
-    {
-        id: 63,
-        nombre: "Lote de 3 gorros (Gris, Rojo y Spiderman)",
-        descripcion: "🕷️ ¡Poderes arácnidos! Lote de 3 gorros de algodón: uno gris jaspeado liso, uno rojo liso y uno espectacular de Spiderman con la máscara y las telarañas. ¡Perfecto para los pequeños súper héroes!",
-        precio: "200 cup",
-        foto: "lote-gorros-spiderman.jpg",
-        tieneFoto: true,
-        categoria: "gorros"
-    },
+    //{
+   //    id: 58,
+   //    nombre: "",
+  //     descripcion: "",
+  //     precio: "",
+   //    foto: "",
+   //    tieneFoto: true,
+  //     categoria: ""
+  // },
+  // {
+  //     id: 59,
+ //      nombre: "",
+  //     descripcion: "",
+   //    precio: "",
+   //    foto: "",
+   //    tieneFoto: true,
+   //    categoria: ""
+  // },
+  // {
+    //   id: 60,
+    //   nombre: "",
+    //   descripcion: "",
+   //    precio: "",
+   //    foto: "",
+   //    tieneFoto: true,
+  //     categoria: ""
+  // },
+  // {
+  //     id: 61,
+   //    nombre: "",
+   //    descripcion: "",
+   //    precio: "",
+   //    foto: "",
+   //    tieneFoto: true,
+   //    categoria: ""
+  // },
+   //{
+  //     id: 62,
+   //    nombre: "",
+   //    descripcion: "",
+  //     precio: "",
+   //    foto:"",
+   //    tieneFoto: true,
+  //     categoria: ""
+  // },
+ //  {
+   //    id: 63,
+   //    nombre: "",
+    //   descripcion:"",
+   //    precio: "",
+   //    foto: "",
+   //    tieneFoto: true,
+  //     categoria: ""
+  // },
 
     // ============================================
     // FILTRO: CALZADO (Zapatos, Tenis, Sandalias)
@@ -670,15 +670,15 @@ const productos = [
         tieneFoto: true,
         categoria: "calzado"
     },
-    {
-        id: 73,
-        nombre: "Sandalias azul marino de piel #12",
-        descripcion: "🩵 Duraderas y elegantes. Sandalias de piel (material sintético de calidad) en azul marino con costuras visibles en hilo blanco y cierre lateral. Tienen una plantilla interna súper suave y acolchada. ¡Perfectas para proteger los deditos en el verano!",
-        precio: "1000 cup",
-        foto: "sandalias-azules.jpg",
-        tieneFoto: true,
-        categoria: "calzado"
-    },
+    //{
+    //   id: 73,
+    //    nombre: "",
+   //    descripcion: "",
+    //   precio: "",
+   //    foto: "",
+    //   tieneFoto: true,
+    //   categoria: ""
+   //},
     {
         id: 74,
         nombre: "Zapatitos de mezclilla con cordón café (6-12 meses)",
@@ -688,15 +688,15 @@ const productos = [
         tieneFoto: true,
         categoria: "calzado"
     },
-    {
-        id: 75,
-        nombre: "Sandalias de ante color durazno (6-12 meses)",
-        descripcion: "🍑 Verano con estilo. Sandalias de ante sintético en un tono durazno/rosa suave. Tienen un diseño con múltiples tiras y un cierre de velcro en el tobillo. ¡Súper cómodas y lindas para los días de calor!",
-        precio: "500 cup",
-        foto: "sandalias-ante.jpg",
-        tieneFoto: true,
-        categoria: "calzado"
-    },
+    //{
+    //    id: 75,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     {
         id: 76,
         nombre: "Lote de 4 pares de zapatitos y escarpines",
@@ -809,15 +809,15 @@ const productos = [
         tieneFoto: true,
         categoria: "accesorios"
     },
-    {
-        id: 88,
-        nombre: "Paquete de 4 tetinas de silicón (Babyking)",
-        descripcion: "🍼 ¡Nuevas en paquete! Paquete original de 4 tetinas de silicón de la marca Babyking. Son de flujo medio y se adaptan a la mayoría de los biberones estándar. Libres de BPA, selladas de fábrica y listas para usar.",
-        precio: "600 cup",
-        foto: "pack-tetinas.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //    id: 88,
+    //    nombre: "",
+    //    descripcion:"",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     //{
     //    id: 89,
     //    nombre: "",
@@ -827,15 +827,15 @@ const productos = [
     //    tieneFoto: true,
     //    categoria: ""
    // },
-    {
-        id: 90,
-        nombre: "Toalla con capucha de Cohete (Nueva con etiqueta)",
-        descripcion: "🚀 ¡Nueva y sellada! Toalla con capucha para bebé de la marca Angel of Mine. Es de color blanco con un bordado de cohete azul y tiene el borde con costuras celestes. Es talla Newborn a 6 meses (20x24'). Viene en su empaque original, ¡lista para estrenar!",
-        precio: "1000 cup",
-        foto: "toalla-cohete.jpg",
-        tieneFoto: true,
-        categoria: "accesorios"
-    },
+    //{
+    //   id: 90,
+    //    nombre: "",
+    //    descripcion: "",
+    //    precio: "",
+    //    foto: "",
+    //    tieneFoto: true,
+    //    categoria: ""
+    //},
     {
         id: 91,
         nombre: "Paquete de 2 chupetes de silicón (Babyking)",
